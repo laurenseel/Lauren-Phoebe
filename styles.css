@@ -8,7 +8,7 @@ body {
 
 @font-face { 
   font-family:'agrandir'; 
-  src: url(Agrandir.OTF);
+  src: local(Agrandir.OTF);
 } 
       
 
@@ -74,7 +74,7 @@ font-family: agrandir;
   padding-left: 50px;
   padding-right: 50px;
   overflow-x: auto;
-  white-space: nowrap; 
+  white-space: no wrap; 
   margin-top: -100px; 
   margin-bottom: -16px;
   display: flex;
@@ -111,7 +111,7 @@ audio {
 }
 
 
-.popout img:hover {
+.popout img: hover {
   transform: scale(1.1); /* Scale up the image */
   box-shadow: 0 0 1px rgba(0, 0, 0, 0); /* Add a shadow */
 }
