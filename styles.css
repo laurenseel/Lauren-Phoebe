@@ -4,7 +4,7 @@ body {
   background-color: #6e568d;
   overflow-x: hidden;
   scrollbar-gutter: stable;
-  font-family: 'Agrandir', sans-serif;  
+  font-family: 'agrandir';
 }
 
 @font-face { 
@@ -13,6 +13,7 @@ body {
   font-weight: normal;
   font-style: normal;
 } 
+     
       
 
 p {
