@@ -22,7 +22,7 @@ font-family: agrandir;
   text-align: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100;
   font-family: agrandir;
   font-weight: bold;
 }
@@ -36,9 +36,9 @@ font-family: agrandir;
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar a: hover {
   background-color: #2b00ff;
-  color: rgb(255, 255, 255);
+  color: RGB(255, 255, 255);
 }
 
 .brandname {
