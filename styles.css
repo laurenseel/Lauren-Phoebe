@@ -3,13 +3,16 @@ body {
   padding: 0;
   background-color: #6e568d;
   overflow-x: hidden;
-  scrollbar-gutter: stable;  
+  scrollbar-gutter: stable;
+  font-family: 'Agrandir', sans-serif;  
 }
 
 @font-face { 
   font-family:'agrandir'; 
-  src: local(Agrandir.OTF);
-} 
+  src: url(Agrandir.OTF);
+  font-weight: normal;
+  font-style: normal;
+}  
       
 
 p {
