@@ -9,10 +9,10 @@ body {
 
 @font-face { 
   font-family:'agrandir'; 
-  src: url(Agrandir.OTF);
+  src: url(Agrandir.OTF) format("opentype");
   font-weight: normal;
   font-style: normal;
-}  
+} 
       
 
 p {
