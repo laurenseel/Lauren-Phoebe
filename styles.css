@@ -32,7 +32,7 @@ font-family: 'Agrandir-WideLight';
   position: fixed; 
   top: 0; /* there is no space at the top*/
   width: 100%; /* makes it maxed out to the sides */
-  height: 550px;
+  height: 100px;
   font-weight: bold; 
   z-index: 1;
   
@@ -47,7 +47,7 @@ font-family: 'Agrandir-WideLight';
 .navbar a {
   display: inline-block;
   color: #000000;  /* text color in the bar */ 
-  padding: 20px 0px; /* determines the padding for the top and down, and the left and right. */
+  padding: 0px 0px; /* determines the padding for the top and down, and the left and right. */
   text-decoration: none; /* makes sure there is no underline on the text */ 
 }
 
