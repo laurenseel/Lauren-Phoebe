@@ -71,13 +71,8 @@ font-family: 'Agrandir-WideLight';
 
 .underlogosocials {
   display: flex;
-  margin-top: -50px;
-  text-align: center;
-  padding: 20px;
-  height: 50px;
-  width: 50px;
-  margin-left: 730px;
-  
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .color1block { /* block where the music is playing */ 
