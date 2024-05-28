@@ -37,7 +37,12 @@ font-family: 'Agrandir-WideLight';
   z-index: 1;
   
 }
-
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 .navbar a {
   display: inline-block;
