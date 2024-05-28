@@ -31,8 +31,16 @@ font-family: Agrandir-WideLight;
   text-align: center; /* text is centered*/
   position: fixed; 
   top: 0; /* there is no space at the top*/
-   width: 100%; /* makes it maxed out to the sides */
+  width: 100%; /* makes it maxed out to the sides */
   font-weight: bold; 
+  z-index: 1000;
+  
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .navbar a {
@@ -46,6 +54,8 @@ font-family: Agrandir-WideLight;
   background-color: #2b00ff;  
   color: rgb(255, 255, 255);
 }
+
+
 
 .brandname {
   padding-top: -100px;
