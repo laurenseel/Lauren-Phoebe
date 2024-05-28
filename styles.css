@@ -26,14 +26,16 @@ font-family: Agrandir-WideLight;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    z-index: 1000;
+  overflow: hidden; 
+  background-color: #a18eff;
+  text-align: center; /* text is centered*/
+  position: fixed; 
+  top: 0; /* there is no space at the top*/
+  width: 100%; /* makes it maxed out to the sides */
+  font-weight: bold; 
+  z-index: 1000;
+  
 }
-
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -41,20 +43,16 @@ font-family: Agrandir-WideLight;
     overflow: hidden;
 }
 
-.navbar ul li {
-    float: right;
+.navbar a {
+  display: inline-block;
+  color: #000000;  /* text color in the bar */ 
+  padding: 20px 130px; /* determines the padding for the top and down, and the left and right. */
+  text-decoration: none; /* makes sure there is no underline on the text */ 
 }
 
-.navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-.navbar ul li a:hover {
-    background-color: #111;
+.navbar a:hover { /* when you hover over text the color changes */ 
+  background-color: #2b00ff;  
+  color: rgb(255, 255, 255);
 }
 
 .brandname {
