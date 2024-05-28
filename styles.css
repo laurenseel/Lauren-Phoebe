@@ -8,7 +8,7 @@ body {
 }
 
 @font-face {
-    font-family: 'MyCustomFont';
+    font-family: Agrandir-WideLight;
     src: url(fonts/Agrandir-WideLight.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
