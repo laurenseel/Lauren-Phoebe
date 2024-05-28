@@ -50,13 +50,7 @@ font-family: 'Agrandir-WideLight';
   text-decoration: none; /* makes sure there is no underline on the text */ 
 }
 
-.navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 140px 200px;
-    text-decoration: none;
-}
+
 
 .navbar a:hover { /* when you hover over text the color changes */ 
   background-color: #2b00ff;  
