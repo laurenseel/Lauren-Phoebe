@@ -8,13 +8,13 @@ body {
 }
 
 @font-face {
-    font-family: Agrandir-WideLight;
-    src: url(fonts/Agrandir-WideLight.otf) format('opentype');
-         url(fonts/Agrandir-WideLight.woff) format('woff');
-         url(fonts/Agrandir-WideLight.woff2) format('woff2');
+  font-family: 'Agrandir-WideLight';
+  src: url('fonts/Agrandir-WideLight.otf') format('opentype'),
+       url('fonts/Agrandir-WideLight.woff') format('woff'),
+       url('fonts/Agrandir-WideLight.woff2') format('woff2');
 
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
