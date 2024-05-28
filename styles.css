@@ -57,10 +57,10 @@ font-family: 'Agrandir-WideLight';
 }
 
 .brandname {
-  
+  padding-top: -1000px;
   padding-left: 1px;
   
-  
+  margin-bottom: -300px;
   text-align: center;
     
 }
