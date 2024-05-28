@@ -32,7 +32,7 @@ font-family: 'Agrandir-WideLight';
   position: fixed; 
   top: 0; /* there is no space at the top*/
   width: 100%; /* makes it maxed out to the sides */
-  height: 100px;
+  height: 150px;
   font-weight: bold; 
   z-index: 1;
   
