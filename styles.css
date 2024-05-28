@@ -42,10 +42,10 @@ font-family: 'Agrandir-WideLight';
 .navbar a {
   display: inline-block;
   color: #000000;  /* text color in the bar */ 
-  padding-left: 20px; /* determines the padding for the top and down, and the left and right. */
-  padding-right: 20px;
-  padding-top: 130px;
-  padding-bottom: 130px; 
+padding-left: 130px; /* determines the padding for the top and down, and the left and right. */
+  padding-right: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
   text-decoration: none; /* makes sure there is no underline on the text */ 
 }
 
