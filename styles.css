@@ -35,7 +35,10 @@ font-family: 'Agrandir-WideLight';
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 20;
+    padding-right: 20;
+    padding-top: 130;
+    padding-bottom: 130 ;
     overflow: hidden;
 }
 
