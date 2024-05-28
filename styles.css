@@ -4,18 +4,18 @@ body {
   background-color: #6e568d;
   /* overflow-x: hidden; */
   scrollbar-gutter: stable; 
-  font-family: 'agrandir';
+  font-family: Agrandir-WideLight, sans-serif;
 }
 
-@font-face { 
-  font-family:'agrandir'; 
-  src: url(Agrandir.OTF) format("opentype");
-  font-weight: normal;
-  font-style: normal;
-} 
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/Agrandir-WideLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
       
 p {
-font-family: 'agrandir';
+font-family: Agrandir-WideLight, sans-serif;
 }
 
 .navbar {
