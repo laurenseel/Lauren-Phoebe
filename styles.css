@@ -65,6 +65,7 @@ font-family: 'Agrandir-WideLight';
 }
 
 .logo {
+  padding-top: -1000px;
   text-align: center;
   padding-bottom: 30px;
     
