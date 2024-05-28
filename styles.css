@@ -31,8 +31,8 @@ font-family: 'Agrandir-WideLight';
   text-align: center; /* text is centered*/
   position: fixed; 
   top: 0; /* there is no space at the top*/
-  width: 100; /* makes it maxed out to the sides */
-  height: 100;
+  width: 100%; /* makes it maxed out to the sides */
+  height: 100px;
   font-weight: bold; 
   z-index: 1;
   
