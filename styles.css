@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  
   padding: 0;
   background-color: #6e568d;
   /* overflow-x: hidden; */
@@ -57,16 +57,12 @@ font-family: 'Agrandir-WideLight';
 }
 
 .brandname {
-  
   padding-left: 1px;
   text-align: center;
     
 }
-
 .logo {
-
   text-align: center;
-    
 }
 
 .underlogosocials {
