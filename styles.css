@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #6e568d;
+  scrollbar-gutter: stable; 
+  font-family: 'Agrandir-WideLight';
+}
+
+@font-face {
+  font-family: 'Agrandir-WideLight';
+  src: url('fonts/Agrandir-WideLight.otf') format('opentype'),
+       url('fonts/Agrandir-WideLight.woff') format('woff'),
+       url('fonts/Agrandir-WideLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+      
+p {
+font-family: 'Agrandir-WideLight';
+}
+/*===============================================================================*/
+/* NAVIGATION BAR*/
+.navbar {
+  background-color: #a18eff;
+  text-align: center; /* text is centered*/
+  top: 0; /* there is no space at the top*/
+  width: 100%; /* makes it maxed out to the sides */
+  font-weight: bold; 
+  z-index: 1000;
+  position: fixed;
+  
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar a {
+  display: inline-block;
+  color: #000000;  /* text color in the bar */ 
+  padding-left: 130px; /* determines the padding for the top and down, and the left and right. */
+  padding-right: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  text-decoration: none; /* makes sure there is no underline on the text */ 
+}
+
+.navbar a:hover { /* when you hover over text the color changes */ 
+  background-color: #2b00ff;  
+  color: rgb(255, 255, 255);
+}
+/*===============================================================================*/
+.gifbackground{
+ height: 1000px;
+ width: 100%;
+}
+
+.gifspacing{
+  margin-top: -500px;
+  margin-bottom: -1000px;
+  text-align: center;
+  
+  width: 100%;
+  height: 800px;
+
+}
+.brandname {
+  margin-top: -700px;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.logo {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+    
+}
+
+.underlogosocials {
+  display: flex;
+  margin-left:auto;
+  margin-right:auto;
+  text-decoration: none;
+}
+/*===============================================================================*/
+
+/* .color1block { /* block where the music is playing  
+  background-color: #6e568d;
+  padding-top: 15px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow-x: auto; /* scrolling  
+  white-space: nowrap;
+  margin-top: 2px; 
+  margin-bottom: -160px; /* fix that small space that hides in the side scroll 
+  display:flex;
+}
+
+.color1block p {
+  /* margin-top: 10px; 
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-family: 'agrandir';
+  
+}
+*/
+/*===============================================================================*/
+/* IMAGES POPPING OUT*/
+
+.popout img {
+  /* Set maximum width for images */
+   /* Maintain aspect ratio */
+   /* Add margin around each image */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+  display: inline-block;
+}
+
+.popout img:hover {
+  transform: scale(1.1); /* Scale up the image */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); /* Add a shadow */
+}
+/*===============================================================================*/
+/* ABOUT SECTION */
+
+.aboutcontainerbackground {
+  background-image: url(images/background2.png);
+  width: 100%; 
+  top: 0;
+  background-size: cover; 
+  background-position: center;
+  margin-bottom: -19px;
+  margin-top: 0;
+}
+
+.aboutcontainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  top: 0;
+}
+.aboutimg1 {
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 200px;
+  height: 600px;
+}
+
+.aboutimg2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 500px;
+  width: 350px;
+}
+
+/*===============================================================================*/
+/* CONTACT SECTION */
+.image-gallery {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+
+}
+.image-item {
+  margin: 50px;
+  color: rgb(255, 255, 255);
+}
+.image-item img {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.image-item a {
+  text-decoration: none;
+  color: blue; /* Adjust text color as needed */
+} 
+/*===============================================================================*/
+/* TOOL TIP */
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 25%; /* Position above the tooltip container */
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+/*===============================================================================*/
+/* CATALOG SECTION */ 
+
+.scrolling-block {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #6e568d;
+  padding-right: 20px ;
+  padding-left: 20px ;
+  padding-top: 20px;
+  
+  box-sizing: border-box;
+}
+
+.scrolling-block .item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.scrolling-block img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 300px;
+  height: auto;
+}
+
+.scrolling-block a {
+  text-decoration: none;
+  color: blue;
+}
+
+.scrolling-block p {
+  font-size: 25px;
+}
